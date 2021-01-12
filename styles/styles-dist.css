@@ -1,0 +1,1 @@
+h1{color:blue}p{color:red}.title{color:aqua}.text{color:aquamarine}[href]{color:green}[href="#"]{color:red}[class~=verde]{color:green}[class|=verde]{color:blue}[class^=rojo]{color:purple}[class$=rojo]{color:steelblue}[class*=rojo]{color:brown}h2+h3{color:blueviolet}h3+h3{color:chartreuse}h2~h4{color:crimson}p span{color:darkmagenta;font-weight:bold}div>span{color:blue}

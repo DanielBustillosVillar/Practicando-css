@@ -1,0 +1,75 @@
+/* Selector de etiqueta */
+h1{
+    color: blue;
+}
+p{
+    color: red;
+}
+/* Selectores de clases */
+.title{
+    color: aqua;
+}
+.text{
+    color: aquamarine;
+}
+/* Selectores de ID, no es recomendable su uso */
+/* #title{
+    color: brown;
+}
+#text{
+    color: coral;
+} */
+/* Selectores universales, recomendable usarlos solo para resear al navegador */
+/* *{
+    color: red;
+}
+ */
+ /* Selectores de atributos */
+ [href]{
+     color: green;
+ }
+ [href="#"]{
+     color: red;
+ }
+ /* Elementos que tienen ese atributo al menos una vez */
+ [class~="verde"]{
+     color: green;
+ }
+ /* Seleccionar que tienen ese atributo y exactamente ese valor o empieze por el valor seguido de un guion */
+ [class|="verde"]{
+     color: blue;
+ }
+ /* Seleccionar por el que empieza con ese valor */
+ [class^="rojo"]{
+     color: purple;
+ }
+ /* Seleccionar por el valor que terminan */
+ [class$=rojo]{
+     color: steelblue;
+ }
+ /* Seleccionar que contengan ese valor */
+ [class*="rojo"]{
+     color: brown;
+ }
+ /* Selectores combinadores */
+
+ /* Selector de hermano adyacente, selecciona al que está debajo de él */
+ h2 + h3{
+     color: blueviolet;
+ }
+ h3 + h3{
+     color: chartreuse;
+ }
+ /* Selector de hermano general, selecciona a todos los hermanos que esten debajo del h2 en este caso */
+ h2 ~ h4{
+    color: crimson;
+ }
+ /* Selectores decendentes, selecciona todos los hijos que estan debajo de el */
+ p span{
+     color: darkmagenta;
+     font-weight: bold;
+ }
+ /* Selector de hijo directo  sirve para buscar la relacion directa, es decir que no esten dentro de otras etiquetas*/
+ div > span{
+     color: blue;
+ }
