@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especificidad, herencia y cascada</title>
+    <link rel="stylesheet" href="styles/espeherecas.css">
+</head>
+<body>
+    <p>Estamos viendo la <a href="#">herencia</a> en css</p>
+
+    <p class="parrafo">Estamos viendo la <a href="#">cascada</a> en css</p>
+
+    <!-- El estilo en linea le gana a id, no recomendable usar -->
+    <p  class="parrafo"  id="parrafo" style="color: aqua;">Estamos viendo la <a href="#">cascada</a> en css</p>
+</body>
+</html>

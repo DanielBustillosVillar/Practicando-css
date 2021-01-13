@@ -1,0 +1,27 @@
+p{
+    color: red;
+}
+a{
+    color: inherit;/* Le estamos diciendo que agarre el color de su padre */
+}
+/* Etiqueta -> 1
+clases y pseudoclases -> 10
+id -> 100
+estilos en linea -> 1000
+!important -> gana a todo
+*/
+#parrafo{ /* El id le gana a la etiqueta, no recomendable usar */
+    color: blueviolet;
+}
+.parrafo{ /* La clase le gana a la etiqueta, en este caso .parrafo le gana a p */
+    color: lawngreen;
+}
+p{
+    color: green;
+}
+a{
+    color: inherit;
+}
+p{
+    color: black !important; /* !important le gana a todo */
+}
